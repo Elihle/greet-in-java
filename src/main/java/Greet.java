@@ -12,8 +12,9 @@ public class Greet {
 //            ArrayList <String> greet = new ArrayList<>();
             System.out.print("Please enter command: ");
 
-            String commandParts = sc.nextLine(); //greet Lihle zulu
-            String[] commandArray = commandParts.split(" "); // ['greet','Lihle','zulu']
+            //String input
+            String commandParts = sc.nextLine(); //greet Lihle xhosa
+            String[] commandArray = commandParts.split(" "); // ['greet','Lihle','xhosa']
 
             String command = commandArray[0];
             if(commandParts.equals("exit")) {
@@ -23,9 +24,17 @@ public class Greet {
 
             if(command.equalsIgnoreCase("greet")){
                 if(commandArray.length ==  2) {
+                // Default language
                     String name = commandArray[1], language = "Xhosa";
                     System.out.println(greeted.greetPerson(name, language));
                 } else if (commandArray.length == 3){
+                    String name = commandArray[1], language = commandArray[2];
+                    System.out.println(greeted.greetPerson(name, language));
+                } else if (commandArray.length == 2) {
+                    String name = commandArray[1], language = "Xhosa";
+                    System.out.println(greeted.greetPerson(name, language));
+                }
+                else if (command.equalsIgnoreCase("greeted")) {
                     String name = commandArray[1], language = commandArray[2];
                     System.out.println(greeted.greetPerson(name, language));
                 }
