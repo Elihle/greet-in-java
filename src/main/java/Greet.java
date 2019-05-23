@@ -12,7 +12,7 @@ public class Greet {
 //            ArrayList <String> greet = new ArrayList<>();
             System.out.print("Please enter command: ");
 
-            //String input
+            //reads input incl. spaces
             String commandParts = sc.nextLine(); //greet Lihle xhosa
             String[] commandArray = commandParts.split(" "); // ['greet','Lihle','xhosa']
 
@@ -34,10 +34,25 @@ public class Greet {
                     String name = commandArray[1], language = "Xhosa";
                     System.out.println(greeted.greetPerson(name, language));
                 }
-                else if (command.equalsIgnoreCase("greeted")) {
-                    String name = commandArray[1], language = commandArray[2];
-                    System.out.println(greeted.greetPerson(name, language));
+
+            }   else if (command.equalsIgnoreCase("greeted")) {
+
+               if (commandArray.length == 2) {
+                    String name = commandArray[1];
+                    System.out.println(greeted.greetedUser(name));
                 }
+
+                else if (commandArray.length == 1) {
+                    System.out.println(greeted.greeted());
+                }
+
+                else if (command.equalsIgnoreCase("clear")) {
+                    if (commandArray.length == 1) {
+                        System.out.println(greeted.greetedUser());
+                    }
+                   System.out.println(greeted.clear());
+               }
+
             } else {
                 System.out.println("Invalid command");
             }
