@@ -39,21 +39,33 @@ public class Greet {
 
                if (commandArray.length == 2) {
                     String name = commandArray[1];
-                    System.out.println(greeted.greetedUser(name));
+                   System.out.println(greeted.greetedUser(name));
                 }
 
                 else if (commandArray.length == 1) {
                     System.out.println(greeted.greeted());
                 }
 
-                else if (command.equalsIgnoreCase("clear")) {
-                    if (commandArray.length == 1) {
-                        System.out.println(greeted.greetedUser());
-                    }
-                   System.out.println(greeted.clear());
-               }
+            }
+            else if (command.equalsIgnoreCase("clear")) {
 
-            } else {
+                if (commandArray.length == 2) {
+                    String name = commandArray[1];
+                    System.out.println(greeted.clear(name));
+                }
+                else if (commandArray.length == 1){
+                    System.out.println(greeted.resetAll());
+                }
+            }
+
+            else if (command.equalsIgnoreCase("counter")) {
+                if (commandArray.length == 2) {
+                    String name = commandArray[1];
+                    System.out.println(greeted.counter(name));
+                }
+            }
+
+            else {
                 System.out.println("Invalid command");
             }
 

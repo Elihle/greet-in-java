@@ -6,16 +6,12 @@ public class Greeted {
 
     HashMap<String, Integer> map = new HashMap(); //{Jan=3}
 
-
     public String greetPerson(String name, String language) {
         try {
 
             if (map.containsKey(name)) {
-//                System.out.println("map size is:" + map.size());
                 int greetedCounter = map.get(name) + 1;
                 map.put(name, greetedCounter);
-//                System.out.println("Greeted Names: " + greetedNames);
-
             }else {
                 map.put(name, 1);
             }
@@ -31,12 +27,33 @@ public class Greeted {
         return map;
     }
 
-    public String greetedUser (String userName) {
-        return userName +" have been greeted " + map.get(userName) + " time(s)";
+    public String greetedUser (String username) {
+        return username +" have been greeted " + map.get(username) + " time(s)";
     }
 
-    public String clear () {
-        return clear();
+    public String clear (String username) {
+        if (map.containsKey(username)) {
+            map.remove(username);
+        }
+        return username + " has been deleted";
     }
+
+    public String reset () {
+            map.clear();
+    return "All greeted names have been deleted";
+    }
+
+    public String resetAll () {
+        return reset();
+    }
+
+    public String counter (String name) {
+        int greetedCounter = map.get(name);
+
+        if (map.containsKey(greetedCounter)) {
+        }
+        return greetedCounter + " name(s) have been greeted";
+    }
+
 
 }
