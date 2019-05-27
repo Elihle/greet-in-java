@@ -5,8 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Greet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Greet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Greeted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Greeted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Greet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Greet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Greeted.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Greeted.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GreetedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GreetedTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Greet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
+            <state relative-caret-position="225">
+              <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -55,22 +54,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Greeted.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+            <state relative-caret-position="315">
+              <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1162#1163#0" expanded="true" />
-                <element signature="e#1194#1195#0" expanded="true" />
+                <element signature="e#667#668#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+                <element signature="e#1158#1159#0" expanded="true" />
+                <element signature="e#1188#1189#0" expanded="true" />
+                <element signature="e#1221#1222#0" expanded="true" />
+                <element signature="e#1245#1246#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1329#1330#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/GreetedTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+            <state relative-caret-position="90">
+              <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,9 +108,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Scanner.java" />
         <option value="$PROJECT_DIR$/src/main/java/Language.java" />
         <option value="$PROJECT_DIR$/src/test/java/greet/GreetTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/GreetedTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Greeted.java" />
         <option value="$PROJECT_DIR$/src/main/java/Greet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Greeted.java" />
+        <option value="$PROJECT_DIR$/src/test/java/GreetedTest.java" />
       </list>
     </option>
   </component>
@@ -129,7 +134,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -172,6 +176,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,26 +214,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Greet">
-    <configuration name="Greet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greet" />
-      <module name="greet-in-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Greeted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Greeted" />
-      <module name="greet-in-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.GreetedTest">
     <configuration name="GreetedTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="greet-in-java" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GreetedTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetedTest.shouldClearAllNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greet-in-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreetedTest" />
+      <option name="METHOD_NAME" value="shouldClearAllNames" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GreetedTest.shouldClearSpecifiedName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="greet-in-java" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GreetedTest" />
+      <option name="METHOD_NAME" value="shouldClearSpecifiedName" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,10 +266,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Greet" />
-        <item itemvalue="JUnit.GreetedTest.shouldGetGreetedPeople" />
-        <item itemvalue="Application.Greeted" />
         <item itemvalue="JUnit.GreetedTest" />
+        <item itemvalue="JUnit.GreetedTest.shouldClearAllNames" />
+        <item itemvalue="JUnit.GreetedTest.shouldClearSpecifiedName" />
+        <item itemvalue="JUnit.GreetedTest.shouldGetGreetedPeople" />
         <item itemvalue="JUnit.GreetedTest.shouldGreetPerson" />
       </list>
     </recent_temporary>
@@ -277,42 +288,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GreetedTest_shouldGreetPerson - 2019.05.17 at 15h 31m 08s.xml">
+    <history-entry file="GreetedTest_shouldCountTotalGreeting - 2019.05.27 at 11h 10m 01s.xml">
+      <configuration name="GreetedTest.shouldCountTotalGreeting" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetedTest_shouldCountTotalGreetings - 2019.05.27 at 11h 11m 19s.xml">
+      <configuration name="GreetedTest.shouldCountTotalGreetings" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetedTest_shouldGreetPerson - 2019.05.27 at 11h 12m 26s.xml">
       <configuration name="GreetedTest.shouldGreetPerson" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetedTest - 2019.05.20 at 10h 47m 01s.xml">
+    <history-entry file="GreetedTest_shouldGreetPerson - 2019.05.27 at 11h 12m 52s.xml">
+      <configuration name="GreetedTest.shouldGreetPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetedTest_shouldGreetPerson - 2019.05.27 at 11h 13m 07s.xml">
+      <configuration name="GreetedTest.shouldGreetPerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetedTest_shouldGetGreetedPeople - 2019.05.27 at 11h 13m 15s.xml">
+      <configuration name="GreetedTest.shouldGetGreetedPeople" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetedTest_shouldGetGreetedPeople - 2019.05.27 at 11h 13m 39s.xml">
+      <configuration name="GreetedTest.shouldGetGreetedPeople" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GreetedTest - 2019.05.27 at 11h 13m 55s.xml">
       <configuration name="GreetedTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetedTest_shouldGreetPerson - 2019.05.20 at 10h 47m 26s.xml">
-      <configuration name="GreetedTest.shouldGreetPerson" configurationId="JUnit" />
+    <history-entry file="GreetedTest_shouldClearSpecifiedName - 2019.05.27 at 11h 15m 29s.xml">
+      <configuration name="GreetedTest.shouldClearSpecifiedName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GreetedTest_shouldGreetPerson - 2019.05.20 at 10h 48m 02s.xml">
-      <configuration name="GreetedTest.shouldGreetPerson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetedTest - 2019.05.20 at 12h 48m 32s.xml">
-      <configuration name="GreetedTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetedTest_shouldGetGreetedPeople - 2019.05.21 at 13h 17m 49s.xml">
-      <configuration name="GreetedTest.shouldGetGreetedPeople" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetedTest_shouldGetGreetedPeople - 2019.05.21 at 13h 18m 29s.xml">
-      <configuration name="GreetedTest.shouldGetGreetedPeople" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetedTest_shouldGetGreetedPeople - 2019.05.21 at 13h 18m 40s.xml">
-      <configuration name="GreetedTest.shouldGetGreetedPeople" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetedTest_shouldGetGreetedPeople - 2019.05.21 at 13h 22m 18s.xml">
-      <configuration name="GreetedTest.shouldGetGreetedPeople" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="GreetedTest_shouldGetGreetedPeople - 2019.05.22 at 11h 26m 30s.xml">
-      <configuration name="GreetedTest.shouldGetGreetedPeople" configurationId="JUnit" />
+    <history-entry file="GreetedTest_shouldClearSpecifiedName - 2019.05.27 at 11h 15m 42s.xml">
+      <configuration name="GreetedTest.shouldClearSpecifiedName" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="71" y="25" width="1289" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49674267" visible="true" weight="0.19790828" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49674267" visible="true" weight="0.2011263" />
       <window_info id="Structure" order="1" sideWeight="0.50325733" side_tool="true" weight="0.28077233" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -335,7 +346,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="DB Execution Console" order="11" />
       <window_info anchor="bottom" id="Console" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32954547" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32792208" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -405,12 +416,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/GreetedTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Greet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="53" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="53" />
+        <state relative-caret-position="225">
+          <caret line="69" column="53" selection-start-line="69" selection-start-column="53" selection-end-line="69" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Greeted.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="66" column="19" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+            <element signature="e#1158#1159#0" expanded="true" />
+            <element signature="e#1188#1189#0" expanded="true" />
+            <element signature="e#1221#1222#0" expanded="true" />
+            <element signature="e#1245#1246#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1329#1330#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -426,22 +452,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Greeted.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/GreetedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="46" column="22" lean-forward="true" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+          <caret line="31" column="46" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1162#1163#0" expanded="true" />
-            <element signature="e#1194#1195#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Greet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="62" column="50" selection-start-line="62" selection-start-column="50" selection-end-line="62" selection-end-column="50" />
         </state>
       </provider>
     </entry>

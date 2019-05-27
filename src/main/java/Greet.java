@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Greet {
@@ -59,9 +60,14 @@ public class Greet {
             }
 
             else if (command.equalsIgnoreCase("counter")) {
-                if (commandArray.length == 2) {
-                    String name = commandArray[1];
-                    System.out.println(greeted.counter(name));
+                if (commandArray.length == 1) {
+                    System.out.println(greeted.totalCounter());
+                }
+            }
+
+            else if (command.equalsIgnoreCase(("help"))) {
+                if (commandArray.length == 1) {
+                    System.out.println(greeted.help());
                 }
             }
 
